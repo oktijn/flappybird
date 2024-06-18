@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Logic
+  - "        _timer = new Timer(_ =>\r\n        {\r\n            SpriteRenderer.sprite
+    = ThumbsSprite;\r\n            _timer.Dispose();\r\n        }, null, 1000, Timeout.Infinite);"
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HappyGuy
   - Water
   - UI
-  - 
+  - Background
   - 
   - 
   - 
